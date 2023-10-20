@@ -184,7 +184,7 @@ where
 
     /// Default help message.
     pub const DEFAULT_HELP_MESSAGE: Option<&'a str> =
-        Some("↑↓ to move, enter to select, type to filter");
+        Some("↑↓ to move, enter to select, type to filter, ESC to cancel");
 
     /// Creates a [Select] with the provided message and options, along with default configuration values.
     pub fn new(message: &'a str, options: Vec<T>) -> Self {
